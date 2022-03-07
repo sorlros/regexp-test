@@ -1,7 +1,7 @@
 let str = `
 010-1234-5678
 neo@gmail.com
-https://heropy.blog/2018/10/28/regexp/
+https://sorlros.blog/2018/10/28/regexp/
 They are gone.
 grown
 abbcccdddd
@@ -91,3 +91,4 @@ console.log(
 console.log(
   str.match(/(?<=@).{1,}/g)
 )
+// @ 뒤의 연속으로 만들어진 문자 검색
